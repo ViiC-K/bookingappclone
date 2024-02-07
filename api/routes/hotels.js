@@ -30,6 +30,8 @@ router.delete("/:id", verifyAdmin, deleteHotel);
 router.get("/countByCity", countByCity);
 router.get("/countByType", countByType);
 
+
+
 export default router;
 
 
